@@ -28,7 +28,7 @@ def multiple_url(main_url):
         x=a['href']
         urls.append('https://de.indeed.com'+ x)
     print(urls)
-    
+    return urls
 if __name__ == "__main__":
     counter('http://localhost/it_indeed_test.html')
     multiple_url('http://localhost/it_indeed_test.html')

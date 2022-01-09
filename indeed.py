@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
-#extract data from all links
+
 def extract_data(url):
     count=0
     for i in url:
@@ -20,13 +20,13 @@ def extract_data_MP(i):
     response = requests.get(i)
     soup = BeautifulSoup(response.text,'html.parser')
     pages=soup.find('ul', class_='pagination-list')
-    for a in pages.find_all('a', href=True):
-        x=a['href']
+    for i in pages.find_all('i', href=True):
+        x=i['href']
         urls.append('https://de.indeed.com'+ x)
-        a= extract_data(urls)
-    return a    
+    a=extract_data(urls)   
+    return a
+        
 
-            
 def plot(list_of_jobs,number_of_jobs):
     fig = plt.figure()
     ax = fig.add_axes([0,0,1,1])

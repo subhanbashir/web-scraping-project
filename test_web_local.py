@@ -16,7 +16,7 @@ class Test(unittest.TestCase):
         test_url = "http://localhost/it_indeed_test.html"
         actual_val = ['https://de.indeed.comhttps://de.indeed.com/jobs?q=IT&l=deutschland&start=10', 'https://de.indeed.comhttps://de.indeed.com/jobs?q=IT&l=deutschland&start=20', 'https://de.indeed.comhttps://de.indeed.com/jobs?q=IT&l=deutschland&start=30', 'https://de.indeed.comhttps://de.indeed.com/jobs?q=IT&l=deutschland&start=40', 'https://de.indeed.comhttps://de.indeed.com/jobs?q=IT&l=deutschland&start=10']
         expected_val = ijc.multiple_url(test_url)
-        self.assertNotEqual(actual_val, expected_val)      
+        self.assertEqual(actual_val, expected_val)      
 
 
 if __name__ == '__main__':

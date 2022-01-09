@@ -18,5 +18,23 @@ plot: this function make a graph between differents jobs.
 I created the other two files for the local web server. the problem was, i was unable to perform unit tests with my main code becuase the data is constantly change.and the unit tests was always failed. that's why i created a local web server to perform unit tests.
 test_web_local.py file is a unit test function file.
 
-#### the points which i have to cover in this project
-1: **git**
+#### the points which i have covered in this project
+**git**
+i am using git to push my code in the github repository.
+
+**UML & DDD**
+
+i made three different diagram which i uploaded in github repository.
+
+**unit tests**
+I wrote 3 units tests. first unit test ckeck if the number of jobs is equal to 10.second unit test check if the number of jobs is not equal to 10 and third unit test check the multiple urls.
+
+**continuous delivery**
+i am using Jenkins for the continuous delivery. I integrated the jenkins with the git-hub repository and create a pipeline for my project.
+
+**IDE**
+i am using visual studio code(VS Code) to write the script in python. my favourite shortcut for VS Code is (Ctrl+F2 Select all occurrences of current word)
+
+**functional programming**
+i am using some functional aspects in my script.like function call inside function,function inside function function as parameter,function return function but it doesnot r
+directly related to my script and just print some lines to learn a concept of functional programming.
