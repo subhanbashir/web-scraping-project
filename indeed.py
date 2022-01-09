@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
-
+#extract data from all links
 def extract_data(url):
     count=0
     for i in url:
