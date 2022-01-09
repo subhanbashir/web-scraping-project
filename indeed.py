@@ -14,7 +14,8 @@ def extract_data(url):
             print(companyname[i].text)
             print('******************')
             count+=1
-    return count     
+    return count 
+        
 def extract_data_MP(i):
     urls=[i]
     response = requests.get(i)
@@ -25,14 +26,15 @@ def extract_data_MP(i):
         urls.append('https://de.indeed.com'+ x)
     b=extract_data(urls)   
     return b
-        
 
-def plot(list_of_jobs,number_of_jobs):
-    fig = plt.figure()
-    ax = fig.add_axes([0,0,1,1])
-    ax.bar(list_of_jobs,number_of_jobs)
-    plt.show()
-    
+def greet(list_of_jobs,number_of_jobs):
+    print('now i am going to create a plot')       
+    def plot(list_of_jobs,number_of_jobs):
+       fig = plt.figure()
+       ax = fig.add_axes([0,0,1,1])
+       ax.bar(list_of_jobs,number_of_jobs)
+       plt.show()
+    return plot(list_of_jobs,number_of_jobs)
         
 if __name__ == "__main__":
     list_of_url=['https://de.indeed.com/jobs?q=IT&l=deutschland&ts',
@@ -45,4 +47,4 @@ if __name__ == "__main__":
     for i in list_of_url:
         jobs= extract_data_MP(i)
         number_of_jobs.append(jobs)
-    plot(list_of_jobs,number_of_jobs)
+    greet(list_of_jobs,number_of_jobs)
