@@ -20,11 +20,11 @@ def extract_data_MP(i):
     response = requests.get(i)
     soup = BeautifulSoup(response.text,'html.parser')
     pages=soup.find('ul', class_='pagination-list')
-    for i in pages.find_all('i', href=True):
-        x=i['href']
+    for a in pages.find_all('a', href=True):
+        x=a['href']
         urls.append('https://de.indeed.com'+ x)
-    a=extract_data(urls)   
-    return a
+    b=extract_data(urls)   
+    return b
         
 
 def plot(list_of_jobs,number_of_jobs):
