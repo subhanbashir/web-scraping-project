@@ -36,5 +36,5 @@ i am using Jenkins for the continuous delivery. I integrated the jenkins with th
 i am using visual studio code(VS Code) to write the script in python. my favourite shortcut for VS Code is (Ctrl+F2 Select all occurrences of current word)
 
 **functional programming**
-i am using some functional aspects in my script.like function call inside function,function inside function function as parameter,function return function but it doesnot r
+i am using some functional aspects in my script.like function call inside function,function inside function function as parameter,function return function but it doesnot
 directly related to my script and just print some lines to learn a concept of functional programming.
