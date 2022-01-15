@@ -1,7 +1,9 @@
 # web-scrapping-project
 #### short description about my web scraping project
 in my software project i am going to extract data from the website and analyze the job market.
+
 website: www.indeed.de
+
 data : job title and company name
 
 #### files and functions in my repository
@@ -13,8 +15,11 @@ indeed.py file is my main code where i extract data from 4 different links then 
 I am using 3 main functions in my code.
 
 extract_data : this function access the website and return a scrap data.
+
 counter: this function count the numbers of jobs and return the total numbers of jobs.
+
 extract_data_MP: this function extract all the links of multiple pages.
+
 plot: this function make a graph between differents jobs.
 
 I created the other two files for the local web server. the problem was, i was unable to perform unit tests with my main code becuase the data is constantly change.and the unit tests was always failed. that's why i created a local web server to perform unit tests.
@@ -43,7 +48,9 @@ sequence diagram 2.png (describe the working of my code).
 I wrote 3 units tests.
 
 First unit test ckeck if the number of jobs is equal to 10.
+
 Second unit test check if the number of jobs is not equal to 10.
+
 Third unit test check the multiple urls.
 
 I also attach screenshots of the output of unittest.
@@ -58,8 +65,11 @@ i am using Jenkins for the continuous delivery. I integrated the jenkins with th
 filename:
 
 jenkins dashboard.png.
+
 pipeline.png.
+
 pipeline history.png.
+
 pipeline console output.png.
 
 **IDE**
@@ -68,6 +78,7 @@ i am using visual studio code(VS Code) to write the script in python. my favouri
 **filename:**
 
 output of my code.png (this screenshot shows the final output of my code).
+
 Code.png (this screenshot show the overall code).
 
 
