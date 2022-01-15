@@ -15,8 +15,8 @@ def extract_data(url):
             print('******************')
             count+=1
     return count 
-def Link_ann(extract_data_MP,i):
-    print('i am going to extract this link'+i)   
+def Link(extract_data_MP,i):
+    print('i am going to extract this link')   
     return extract_data_MP(i)
         
 def extract_data_MP(i):
@@ -30,7 +30,7 @@ def extract_data_MP(i):
     b=extract_data(urls)   
     return b
 
-def greet(list_of_jobs,number_of_jobs):
+def plotting(list_of_jobs,number_of_jobs):
     print('now i am going to create a plot')       
     def plot(list_of_jobs,number_of_jobs):
        fig = plt.figure()
@@ -48,6 +48,6 @@ if __name__ == "__main__":
     list_of_jobs=['IT','BI','data science','marketing']
     number_of_jobs=[]
     for i in list_of_url:
-        jobs= Link_ann(extract_data_MP,i)
+        jobs= Link(extract_data_MP,i)
         number_of_jobs.append(jobs)
-    greet(list_of_jobs,number_of_jobs)
+    plotting(list_of_jobs,number_of_jobs)
