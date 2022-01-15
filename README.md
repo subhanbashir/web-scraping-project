@@ -33,7 +33,9 @@ i made three different diagram which i uploaded in github repository.
 **filenames:** 
 
 use case diagram.png (employment agency).
+
 sequence diagram.png (employment agency work ).
+
 sequence diagram 2.png (describe the working of my code).
 
 **unit tests**
