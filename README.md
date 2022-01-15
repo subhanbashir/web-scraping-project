@@ -32,9 +32,9 @@ i made three different diagram which i uploaded in github repository.
 
 **filenames:** 
 
-use case diagram.png (employment agency)
-sequence diagram.png (employment agency work )
-sequence diagram 2.png (describe the working of my code)
+use case diagram.png (employment agency).
+sequence diagram.png (employment agency work ).
+sequence diagram 2.png (describe the working of my code).
 
 **unit tests**
 
@@ -48,25 +48,25 @@ I also attach screenshots of the output of unittest.
 
 **filename:** 
 
-unit test output.png
+unit test output.png.
 
 **continuous delivery**
 i am using Jenkins for the continuous delivery. I integrated the jenkins with the git-hub repository and create a pipeline for my project.
 
 filename:
 
-jenkins dashboard.png
-pipeline.png
-pipeline history.png
-pipeline console output.png
+jenkins dashboard.png.
+pipeline.png.
+pipeline history.png.
+pipeline console output.png.
 
 **IDE**
 i am using visual studio code(VS Code) to write the script in python. my favourite shortcut for VS Code is (Ctrl+F2 Select all occurrences of current word). these screenshots belongs to my overall code output.
 
 **filename:**
 
-output of my code.png (this screenshot shows the final output of my code)
-Code.png (this screenshot show the overall code)
+output of my code.png (this screenshot shows the final output of my code).
+Code.png (this screenshot show the overall code).
 
 
 **functional programming**
