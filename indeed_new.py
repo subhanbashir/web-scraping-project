@@ -33,6 +33,8 @@ def plot(list_of_jobs,number_of_jobs):
        fig = plt.figure()
        ax = fig.add_axes([0,0,1,1])
        ax.bar(list_of_jobs,number_of_jobs)
+       plt.xlabel('number_of_jobs')
+       plt.ylabel('list_of_jobs')
        plt.show()
 
 if __name__ == "__main__":
