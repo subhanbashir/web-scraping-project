@@ -83,5 +83,32 @@ Code.png (this screenshot show the overall code).
 
 
 **functional programming**
-i am using some functional aspects in my script.like function call inside function,function inside function function as parameter,function return function but it doesnot directly related to my script and just print some lines to learn a concept of functional programming.
+i am using some functional aspects in my script.like function call inside function,function inside function, function as parameter,function return function.
+
+**build management tool**
+
+i am using **maven** to learn how the build managment tool work. i have done two small project but it doesnot related to my main project. this is just like a practice exercise.
+
+**filename**
+
+maven projects.PNG
+
+in the first project i just generate some docs.
+
+maven test console output.PNG
+
+script1.PNG 
+
+in the second project i just create a war file for a simple web app.
+
+**filename**
+
+pom.xml
+
+jenkinfile
+
+script 2 .PNG
+
+build project.PNG
+
 
