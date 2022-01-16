@@ -20,7 +20,7 @@ web_scr_local.py
 
 indeed.py file is my main code where i extract data from 4 different links then I create a graph between different jobs(IT, BI, data science, marketing) and analyze the job market.
 
-I am using 3 main functions in my code.
+I am using four main functions in my code.
 
 extract_data : this function access the website and return a scrap data.
 
@@ -68,6 +68,7 @@ I also attach screenshots of the output of unittest.
 unit test output.png.
 
 **continuous delivery**
+
 i am using Jenkins for the continuous delivery. I integrated the jenkins with the git-hub repository and create a pipeline for my project.
 
 filename:
