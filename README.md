@@ -10,6 +10,14 @@ data : job title and company name
 
 I have three different types of files in my repository.
 
+**filename**
+
+indeed_new.py
+
+test_web_local.py
+
+web_scr_local.py
+
 indeed.py file is my main code where i extract data from 4 different links then I create a graph between different jobs(IT, BI, data science, marketing) and analyze the job market.
 
 I am using 3 main functions in my code.
