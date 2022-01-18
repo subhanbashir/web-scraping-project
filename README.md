@@ -39,21 +39,27 @@ test_web_local.py file is a unit test function file.
 
 i am using git to push my code in the github repository.
 
-**UML & DDD**
+**2: UML**
 
 i made three different diagram which i uploaded in github repository.
 
+this diagram describe the overall working of my code.
+
 ![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/sequence%20diagram%202.PNG)
 
-**filenames:** 
+employment agency
 
-use case diagram.png (employment agency).
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/sequence%20diagram.PNG)
 
-sequence diagram.png (employment agency work ).
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/use%20case%20diagram.PNG)
 
-sequence diagram 2.png (describe the working of my code).
+**3 : DDD**
 
-**unit tests**
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/DDD1.PNG)
+
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/DDD2.PNG)
+
+**7 : unit tests**
 
 I wrote 3 units tests.
 
@@ -63,48 +69,44 @@ Second unit test check if the number of jobs is not equal to 10.
 
 Third unit test check the multiple urls.
 
-I also attach screenshots of the output of unittest.
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/unit%20test%20output.PNG)
 
-**filename:** 
-
-unit test output.png.
-
-**continuous delivery**
+**8 : continuous delivery**
 
 i am using Jenkins for the continuous delivery. I integrated the jenkins with the git-hub repository and create a pipeline for my project.
 
-filename:
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/jenkins%20dashboard.PNG)
 
-jenkins dashboard.png.
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/pipeline.PNG)
 
-pipeline.png.
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/pipeline%20history.PNG)
 
-pipeline history.png.
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/pipeline%20console%20output.PNG)
 
-pipeline console output.png.
+**9 : IDE**
 
-**IDE**
 i am using visual studio code(VS Code) to write the script in python. my favourite shortcut for VS Code is (Ctrl+F2 Select all occurrences of current word). these screenshots belongs to my overall code output.
 
-**filename:**
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/output%20of%20my%20code.PNG)
 
-output of my code.png (this screenshot shows the final output of my code).
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/Code.PNG)
 
-Code.png (this screenshot show the overall code).
-
-
-**functional programming**
+**11 : functional programming**
 i am using some functional aspects in my script.like function call inside function,function inside function, function as parameter,function return function.
 
-**build management tool**
+**6 : build management tool**
 
 i am using **maven** to learn how the build managment tool work. i have done two small project but it doesnot related to my main project. this is just like a practice exercise.
 
-**filename**
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/maven%20projects.PNG)
 
 maven projects.PNG
 
 in the first project i just generate some docs.
+
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/maven%20test%20console%20output.PNG)
+
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/script1.PNG)
 
 maven test console output.PNG
 
@@ -112,11 +114,9 @@ script1.PNG
 
 in the second project i just create a war file for a simple web app.
 
-**filename**
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/script%202%20.PNG)
 
-pom.xml
-
-jenkinfile
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/build%20project.PNG)
 
 script 2 .PNG
 
