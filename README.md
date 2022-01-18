@@ -43,6 +43,8 @@ i am using git to push my code in the github repository.
 
 i made three different diagram which i uploaded in github repository.
 
+![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/sequence%20diagram%202.PNG)
+
 **filenames:** 
 
 use case diagram.png (employment agency).
