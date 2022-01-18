@@ -100,26 +100,16 @@ i am using **maven** to learn how the build managment tool work. i have done two
 
 ![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/maven%20projects.PNG)
 
-maven projects.PNG
-
 in the first project i just generate some docs.
 
 ![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/maven%20test%20console%20output.PNG)
 
 ![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/script1.PNG)
 
-maven test console output.PNG
-
-script1.PNG 
-
 in the second project i just create a war file for a simple web app.
 
 ![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/script%202%20.PNG)
 
 ![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/build%20project.PNG)
-
-script 2 .PNG
-
-build project.PNG
 
 
