@@ -10,6 +10,10 @@ data : job title and company name
 
 I have three different types of files in my repository.
 
+[main code](https://github.com/subhanbashir/web-scraping-project/blob/main/indeed_new.py)
+
+[local web server](https://github.com/subhanbashir/web-scraping-project/blob/main/web_scr_local.py)
+
 **filename**
 
 indeed_new.py
@@ -69,7 +73,7 @@ Second unit test check if the number of jobs is not equal to 10.
 
 Third unit test check the multiple urls.
 
-[I'm an inline-style link](https://github.com/subhanbashir/web-scraping-project/blob/main/test_web_local.py)
+[unit test](https://github.com/subhanbashir/web-scraping-project/blob/main/test_web_local.py)
 
 ![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/unit%20test%20output.PNG)
 
@@ -88,6 +92,8 @@ i am using Jenkins for the continuous delivery. I integrated the jenkins with th
 **9 : IDE**
 
 i am using visual studio code(VS Code) to write the script in python. my favourite shortcut for VS Code is (Ctrl+F2 Select all occurrences of current word). these screenshots belongs to my overall code output.
+
+[main code](https://github.com/subhanbashir/web-scraping-project/blob/main/indeed_new.py)
 
 ![This is an image](https://github.com/subhanbashir/web-scraping-project/blob/main/output%20of%20my%20code.PNG)
 
